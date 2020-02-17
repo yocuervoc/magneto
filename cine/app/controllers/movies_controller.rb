@@ -49,3 +49,6 @@ class MoviesController < ApplicationController
       params.require(:movie).permit(:name, :url, :date, :chairs)
     end
 end
+
+
+# insert into movies (name, url, date, chairs) values("batman2","www.batman.com", '2010-12-12',10);
